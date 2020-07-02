@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-first-project"
+    }
+  },
+  "defaultProject": "angular-first-project",
+  "cli": {
+    "analytics": "22fc7e22-4acb-4587-9b8a-7ca99f2ba867"
+  }
 }
